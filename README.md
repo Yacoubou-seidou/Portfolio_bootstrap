@@ -42,7 +42,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yacoubou-seidou.github.io/Portfolio/)
+- [Live Demo Link](https://yacoubou-seidou.github.io/Portfolio_bootstrap/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +112,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Yacoubou-seidou/Hello-Microverse/issues).
+Feel free to check the [issues page](https://github.com/Yacoubou-seidou/Portfolio_bootstrap/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
