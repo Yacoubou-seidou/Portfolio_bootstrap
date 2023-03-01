@@ -23,7 +23,7 @@ body {
   margin-top: 15%;
 }
 
-.project{
+.project {
   margin-top: 10%;
 }
 
@@ -37,16 +37,16 @@ body {
   list-style: none;
 }
 
-.badge{
-  background-color:#EBEBFF;
+.badge {
+  background-color: #ebebff;
   color: #0018f0;
 }
 
-.card button{
+.card button {
   margin-top: 10%;
 }
 
-.btn{
+.btn {
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #396df2;
