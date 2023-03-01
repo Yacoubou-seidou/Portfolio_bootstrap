@@ -9,6 +9,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
@@ -21,12 +23,12 @@
           <a class="navbar-brand" href="#">My Logo</a>
           <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading1">Portfolio</a>
+              <a class="nav-link" href="#works">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading2">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
-            <a class="nav-link" href="#scrollspyHeading2">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -40,7 +42,7 @@
         experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
       </p>
       <h3>LET’S CONNECT</h3>
-          <ul class="d-flex justify-content-between w-25 px-0">
+          <ul class="d-flex justify-content-between w-25 px-0 social_icons">
             <li><a href="#"><i class="fa-brands fa-twitter socialMedia"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-linkedin-in socialMedia"></i></a> </li>
             <li><a href="#"><i class="fa-solid fa-m socialMedia"></i></a></li>
@@ -48,13 +50,305 @@
             <li><a href="#"><i class="fa-regular fa-hand-peace socialMedia"></i></a></li>
           </ul>
     </div>
+  </div>
 
+  <div class="container" id="works">
+    <div class="row project">
+      <div class="card d-flex flex-row py-3">
+        <img src="pictures/SnapshootPortfolio.png" class="card-img-top col-6" alt="...">
+        <div class="card-body col-6">
+          <h2 class="card-title">Tonic</h2>
+          <div class="row d-flex flex-row col-9 px-0">
+            <h5 class="col-4">CANOPY</h5>
+            <ul class="d-flex flex-row justify-content-between col-6">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+          </div>
+          <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <div class="row d-flex justify-content-between col-6">
+            <span class="badge p-2 w-25">html</span>
+            <span class="badge p-2 w-25">css</span>
+            <span class="badge p-2 w-25">javascript</span>
+          </div>
+          <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal1">
+            See Project
+          </button>
+          <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel1">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="row project">
+      <div class="card d-flex flex-row-reverse py-3">
+        <img src="pictures/SnapshootPortfolio.png" class="card-img-top col-6" alt="...">
+        <div class="card-body col-6">
+          <h2 class="card-title">Tonic</h2>
+          <div class="row d-flex flex-row col-9 px-0">
+            <h5 class="col-4">CANOPY</h5>
+            <ul class="d-flex flex-row justify-content-between col-6">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+          </div>
+          <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <div class="row d-flex justify-content-between col-6">
+          <span class="badge p-2 w-25">html</span>
+          <span class="badge p-2 w-25">css</span>
+          <span class="badge p-2 w-25">javascript</span>
+        </div>
+          <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+            See Project
+          </button>
+          <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel2">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="row project">
+      <div class="card d-flex flex-row py-3">
+        <img src="pictures/SnapshootPortfolio.png" class="card-img-top col-6" alt="...">
+        <div class="card-body col-6">
+          <h2 class="card-title">Tonic</h2>
+          <div class="row d-flex flex-row col-9 px-0">
+            <h5 class="col-4">CANOPY</h5>
+            <ul class="d-flex flex-row justify-content-between col-6">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+          </div>
+          <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <div class="row d-flex justify-content-between col-6">
+          <span class="badge p-2 w-25">html</span>
+          <span class="badge p-2 w-25">css</span>
+          <span class="badge p-2 w-25">javascript</span>
+        </div>
+          <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+            See Project
+          </button>
+          <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel3">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="row project">
+      <div class="card d-flex flex-row-reverse py-3">
+        <img src="pictures/SnapshootPortfolio.png" class="card-img-top col-6" alt="...">
+        <div class="card-body col-6">
+          <h2 class="card-title">Tonic</h2>
+          <div class="row d-flex flex-row col-9 px-0">
+            <h5 class="col-4">CANOPY</h5>
+            <ul class="d-flex flex-row justify-content-between col-6">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+          </div>
+          <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <div class="row d-flex justify-content-between col-6">
+          <span class="badge p-2 w-25">html</span>
+          <span class="badge p-2 w-25">css</span>
+          <span class="badge p-2 w-25">javascript</span>
+        </div>
+          <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal4">
+            See Project
+          </button>
+          <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel4">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-white project borderRadius px-0">
+  <div class="container pt-5 paddingBottom" id="about">
+    <div class="row pt-5">
+      <div class="col-6">
+        <h2>About
+        Myself</h2>
+        <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and
+        experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+        <h3>LET’S CONNECT</h3>
+        <ul class="d-flex justify-content-between w-25 px-0 social_icons">
+          <li><a href="#"><i class="fa-brands fa-twitter socialMedia"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in socialMedia"></i></a> </li>
+          <li><a href="#"><i class="fa-solid fa-m socialMedia"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-github socialMedia"></i></a></li>
+          <li><a href="#"><i class="fa-regular fa-hand-peace socialMedia"></i></a></li>
+        </ul>
+                  <button type="button" class="btn">
+                    See Project
+                  </button>
+      </div>
+<div class="col-6">
+  <div class="accordion  border-0" id="accordionExample">
+    <div class="accordion-item border-0">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Languages
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body d-flex border-0">
+          <div class="card col-3 p-2 border-0 bg-light">
+            <div class="card-image">
+              <img src="pictures/Ellipse0.png"  alt="">
+            </div>
+            <div class="card-body">
+              <p>javascript</p>
+            </div>
+          </div>
+          <div class="card col-3 p-2 border-0 bg-light mx-3">
+            <div class="card-image">
+              <img src="pictures/Ellipse1.png" alt="">
+            </div>
+            <div class="card-body">
+              <p>Html</p>
+            </div>
+          </div>
+          <div class="card col-3 p-2 border-0 bg-light">
+            <div class="card-image">
+              <img src="pictures/Ellipse2.png" alt="">
+            </div>
+            <div class="card-body">
+              <p>CSS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item border-0">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+         Framework
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+      </div>
+    </div>
+    <div class="accordion-item border-0">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+          aria-expanded="false" aria-controls="collapseThree">
+          Skills
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+
+  <div class="container- bg-primary borderLeft" id="contact">
+    <div class="container col-4 text-white text-center">
+      <h1>Contact me</h1>
+      <p>If you have an application you are interested in developing, a feature that you need built or a project that needs
+      coding. I’d love to help with it</p>
+      <form>
+        <div class="mb-3 text-left">
+          <label for="exampleInputEmail1" class="form-label">Full name</label>
+          <input type="text" class="form-control" placeholder="Full name" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 text-left">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" placeholder="Email adress" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 text-left">
+          <textarea class="form-control" placeholder="Write your message here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
+        </div>
+        <button type="submit" class="btn bg-white">
+          See Project
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
