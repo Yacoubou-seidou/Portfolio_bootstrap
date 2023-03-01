@@ -1,0 +1,30 @@
+body {
+  background-color: #f4f5f7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg_image_first {
+  background-color: white;
+  background-image: url("pictures/Headerbg@2x.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+  border-bottom-left-radius: 85px;
+}
+
+.marginTop {
+  margin-top: 15%;
+}
+
+.socialMedia {
+  font-size: 22px;
+  color: #505f79;
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
