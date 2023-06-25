@@ -1,0 +1,68 @@
+body {
+  background-color: #f4f5f7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg_image_first {
+  background-color: white;
+  background-image: url("pictures/Headerbg@2x.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+  border-bottom-left-radius: 85px;
+}
+
+.marginTop {
+  margin-top: 15%;
+}
+
+.project {
+  margin-top: 10%;
+}
+
+.socialMedia {
+  font-size: 22px;
+  color: #505f79;
+  font-weight: 500;
+}
+
+.social_icons li {
+  list-style: none;
+}
+
+.badge {
+  background-color: #ebebff;
+  color: #0018f0;
+}
+
+.card button {
+  margin-top: 10%;
+}
+
+.btn {
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  background: none;
+}
+
+.borderRadius {
+  border-top-right-radius: 85px;
+}
+
+.borderLeft {
+  border-top-left-radius: 85px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-image: url('pictures/contactformBackgroundshapes@2x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paddingBottom {
+  padding-bottom: 10%;
+}
